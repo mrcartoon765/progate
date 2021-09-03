@@ -20,5 +20,4 @@ class Main {
 		System.out.println("奇数の和は" + oddSum + "です");
 		System.out.println("偶数の和は" + evenSum + "です");
 	}
-}ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL+o2lz/lFtg7drs3ESbtX0lNvV/r59Q/Jvt54Ew6y9w mrcartoon765 @gmail.
-com
+}
