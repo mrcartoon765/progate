@@ -1,3 +1,11 @@
-public class Java3_1-1 {
+import javax.print.attribute.standard.PagesPerMinute;
 
+class Main {
+	public static void main(String[] args) {
+		hello();
+	}
+
+	public static void hello() {
+		System.out.println("Hello Java");
+	}
 }
