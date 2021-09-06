@@ -1,12 +1,12 @@
 class Person {
 	// 以下をすべてprivateなフィールドに書き換えてください
-	public static int count = 0;
-	public String firstName;
-	public String middleName;
-	public String lastName;
-	public int age;
-	public double height;
-	public double weight;
+	private static int count = 0;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private int age;
+	private double height;
+	private double weight;
 
 	Person(String firstName, String lastName, int age, double height, double weight) {
 	  Person.count++;
