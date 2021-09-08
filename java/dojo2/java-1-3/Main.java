@@ -6,6 +6,7 @@ class Main {
 		System.out.println("色：" + bicycle.getColor());
 		System.out.println("走行距離：" + bicycle.getDistance() + "km");
 		System.out.println("-----------------");
+		System.out.println("走る距離を入力してください：");
 		Bicycle.run(10);
 
 	}
