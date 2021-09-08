@@ -5,6 +5,8 @@ class Main {
 		System.out.println("名前：" + bicycle.getName());
 		System.out.println("色：" + bicycle.getColor());
 		System.out.println("走行距離：" + bicycle.getDistance() + "km");
+		System.out.println("-----------------");
+		Bicycle.run(10);
 
 	}
 }

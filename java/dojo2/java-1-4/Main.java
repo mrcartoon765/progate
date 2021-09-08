@@ -1,18 +1,10 @@
-import java.util.Scanner;
-
 class Main {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("名前：");
-		String firstName = scanner.next();
-		System.out.print("名字：");
-		String lastName = scanner.next();
-		System.out.print("年齢：");
-		int age = scanner.nextInt();
-		System.out.print("身長(m)：");
-		double height = scanner.nextDouble();
-		System.out.print("体重(kg)：");
-		double weight = scanner.nextDouble();
-		Person.printData(firstName, lastName, age, height, weight);
+		Bicycle bicycle = new Bicycle("ビアンキ", "緑", 0);
+		System.out.println("【自転車の情報】");
+		System.out.println("名前：" + bicycle.getName());
+		System.out.println("色：" + bicycle.getColor());
+		System.out.println("走行距離：" + bicycle.getDistance() + "km");
+
 	}
 }
