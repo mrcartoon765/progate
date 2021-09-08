@@ -5,6 +5,7 @@ class Main {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("何人分の情報を入力しますか：");
 		int peoples = scanner.nextInt();
+		int maxAge = 0;
 		for (int i = 0; i < peoples; i++) {
 			System.out.print(i + 1 + "人目");
 			System.out.print("名前：");
@@ -13,11 +14,15 @@ class Main {
 			String lastName = scanner.next();
 			System.out.print("年齢：");
 			int age = scanner.nextInt();
+			if(age >= maxAge) {
+				maxAge = age;
+			}
 			System.out.print("身長(m)：");
 			double height = scanner.nextDouble();
 			System.out.print("体重(kg)：");
 			double weight = scanner.nextDouble();
 			Person.printData(firstName, lastName, age, height, weight);
 		}
+			System.out.println("最高年齢は"+ maxAge +"歳です");
 	}
 }
